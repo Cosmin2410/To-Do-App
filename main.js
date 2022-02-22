@@ -25,10 +25,6 @@ function addItem(e){
     cutBtn.appendChild(document.createTextNode('Task Done'));
     li.appendChild(cutBtn);
     
-
-
-
-    // document.querySelector('li').style.textDecoration = 'line-through';
     
 
     let deleteBtn = document.createElement('button');
@@ -67,21 +63,7 @@ function lineThrough(e){
     if(e.target.classList.contains('tsk-done')){
       let li = e.target.parentElement;
       li.style.textDecoration = 'line-through'
-   
-   
-   
-   
-   
-   
-   
-   
-       //    li.forEach(element =>{
-    //        li.style.color = 'red'
-    //        console.log(element)
-    //    });
-       
-        //  document.querySelector('li').style.textDecoration = 'line-through';
-     }
+    }
 
     
 }
