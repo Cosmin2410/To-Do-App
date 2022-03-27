@@ -1,80 +1,85 @@
-body{
-    margin: 0;
-    padding: 0;
-    padding-top: 25rem;
-    padding-left: 45rem;
-    background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
 }
 
-
-.to-do{
-    width:fit-content;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
+.to-do {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  color: white;
 }
 
-
-form{
-    /* padding-bottom: .3rem; */
-}
-
-#write{
-    background-color:rgb(248, 247, 245);
-    border: none;
-    height: 1.5rem;
-    border-radius:2px;
+#write {
+  background-color: rgb(248, 247, 245);
+  border: none;
+  height: 1.5rem;
+  border-radius: 2px;
 }
 
 .submit {
-    height: 1.68rem;
-    border-radius: 2px;
-    border: none;
-    width: 5rem;
-    background-color: blueviolet;
-    color: white;
-    margin: 0;
-
+  height: 1.68rem;
+  border-radius: 2px;
+  border: none;
+  width: 5rem;
+  background-color: blueviolet;
+  color: white;
+  margin: 0;
 }
 
-.submit:hover{
-    background-color: rgb(79, 25, 129);
-    opacity: .9;
-    cursor: pointer;
+.submit:hover {
+  background-color: rgb(79, 25, 129);
+  opacity: 0.9;
+  cursor: pointer;
 }
 
-.clear-all{
-    width: 10rem;
-    margin: 0;
-    margin-top: .5rem;
+.clear-all {
+  width: 10rem;
+  margin: 0;
+  margin-top: 0.5rem;
 }
 
-button{
-    background-color: blueviolet;
-    color: white;
-    border: none;
-    margin: .5rem;
-    height: 1.5rem;
-    border-radius:2px;
+button {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  margin: 0.5rem;
+  height: 1.5rem;
+  border-radius: 2px;
 }
 
-button:hover{
-    background-color: rgb(79, 25, 129);
-    opacity: .9;
-    cursor: pointer;
-
+button:hover {
+  background-color: rgb(79, 25, 129);
+  opacity: 0.9;
+  cursor: pointer;
 }
 
- ul{
-    list-style: none;
-    margin: 0;
-    margin-top:1rem ;
-    padding: 0;
+ul {
+  list-style: none;
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
 }
 
+.dlt-button {
+}
 
-.dlt-button{
-    margin-left: auto; 
- } 
+.list-item {
+  display: flex;
+  align-items: center;
+}
+
+.list-item button {
+  display: flex;
+  /* justify-content: end; */
+}
+
+.tsk-done {
+  display: flex;
+  /* justify-content: end; */
+}
